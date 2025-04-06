@@ -91,7 +91,7 @@ export default function PatientDashboard() {
     fetchAppointments();
     fetchCareTeam();
     fetchPrescriptions();
-  }, []);
+  },);
 
   const fetchPatientProfile = async () => {
     try {
